@@ -1,16 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <echartsTable></echartsTable>
+    <movieTable></movieTable>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import movieTable from './components/movieTable.vue'
+import echartsTable from './components/echartsTable'
+import { onBeforeMount } from 'vue'
+// this.option = require('./options');
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    movieTable,
+    echartsTable,
+  },
+  setup(){
+    onBeforeMount(() => {
+        
+    })
+  },
 }
 </script>
 
@@ -21,6 +31,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  height:100vh;
+  width:100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 </style>
