@@ -9,11 +9,11 @@
   },
   "dependencies": {
     "axios": "^0.27.2",
-    "core-js": "^3.8.3",
-    "echarts": "^5.3.3",
+    "core-js": "^3.31.1",
+    "echarts": "^5.4.3",
     "echarts-gl": "^2.0.9",
-    "element-plus": "^2.2.12",
-    "vue": "^3.2.13"
+    "element-plus": "^2.3.8",
+    "vue": "^3.3.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
