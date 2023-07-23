@@ -1,24 +1,3 @@
 # crawler
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+点击这里查看[Demo](https://she-yh.github.io/crawler/)
+爬取豆瓣前250后使用echarts进行前端渲染
